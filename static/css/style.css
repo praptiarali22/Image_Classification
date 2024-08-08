@@ -1,0 +1,121 @@
+body {
+    font-family: 'Montserrat', sans-serif; /* Primary font family */
+    background: url('../css/back.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #ecf0f1;
+    margin: 0;
+    padding:0; 
+}
+
+.content {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: rgba(0, 44, 88, 0.5);
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.index-main {
+    text-align: center;
+}
+
+.header-content {
+    margin-bottom: 40px;
+}
+
+.header-content h1 {
+    font-family: 'Montserrat', sans-serif; /* Consistent font */
+    font-weight: 600; /* Semi-bold for headers */
+    color: #ecf0f1;
+    font-size: 2.2em; /* Slightly smaller for a refined look */
+    line-height: 1.2; /* Improved line spacing */
+}
+
+.upload-section {
+    margin-bottom: 40px;
+}
+
+.upload-file,
+.upload-link {
+    margin-bottom: 25px;
+}
+
+.file-form-input,
+.link-form-input {
+    font-family: 'Montserrat', sans-serif; /* Consistent font */
+    width: 100%;
+    padding: 12px; /* Slightly smaller padding */
+    border: 1px solid #95a5a6;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    background-color: #ecf0f1;
+    color: #2c3e50;
+    font-size: 1em;
+    font-weight: 400; /* Normal weight for input text */
+}
+
+.btn {
+    font-family: 'Montserrat', sans-serif; /* Consistent font */
+    width: 100%;
+    padding: 12px; /* Slightly smaller padding */
+    border: none;
+    border-radius: 8px;
+    font-weight: 600; /* Semi-bold for buttons */
+    font-size: 1em;
+    background-color: #e74c3c;
+    color: #ecf0f1;
+}
+
+.btn:hover {
+    background-color: #c0392b;
+}
+
+.uploadOR {
+    font-family: 'Montserrat', sans-serif; /* Consistent font */
+    margin: 20px 0;
+    font-size: 1.2em; /* Slightly smaller */
+    font-weight: 600; /* Semi-bold for emphasis */
+    color: #bdc3c7;
+}
+
+.header-content-sub p {
+    font-family: 'Montserrat', sans-serif; /* Consistent font */
+    font-size: 1.5em;
+    color: #ecf0f1;
+}
+
+.footer {
+    margin-top: 40px;
+}
+
+.header-content-info {
+    font-family: 'Montserrat', sans-serif; /* Consistent font */
+    color: #bdc3c7;
+}
+
+.header-content-info strong {
+    color: #e74c3c;
+    font-weight: 600; /* Semi-bold for emphasis */
+}
+
+.header-content-info span {
+    color: #e74c3c;
+    font-weight: 600; /* Semi-bold for emphasis */
+}
+
+.categories-list {
+    list-style-type:disc; /* Use decimal numbering */
+    font-family: 'Montserrat', sans-serif; /* Consistent font */
+    font-size: 1.2em;
+    color: #ecf0f1;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5; /* Line height for spacing */
+    text-align:center; 
+}
+
+.categories-list li {
+    margin-bottom: 10px; /* Space between items */
+    
+}

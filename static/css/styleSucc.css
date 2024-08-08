@@ -1,0 +1,131 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: url('../css/b5.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff; /* White font color */
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-main {
+    padding: 20px;
+    width: 100%;
+    min-height: 100vh;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 52, 87, 0.7); /* Blue background color */
+    position: relative;
+}
+
+/* Navigation Styles */
+nav {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: auto;
+}
+
+.main-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main-nav li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #ffffff; /* White color for navigation links */
+    font-weight: 700;
+}
+
+.main-nav a:hover {
+    color: #aabbee; /* Light blue color on hover */
+}
+
+/* Header Styles */
+.header {
+    margin-bottom: 40px;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-text {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+    color: #ffffff; /* White color for header text */
+    margin-bottom: 20px;
+}
+
+/* Image Styles */
+
+.result-img-container {
+    width: 40%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.result-img {
+    width: 150%; /* Adjusted to be less than 100% to fit well */
+    max-width: 1200px; /* Set a maximum width to prevent it from getting too large */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Table Styles */
+.info {
+    text-align: center;
+    width: 100%;
+}
+
+.table-custom {
+    width: 100%; /* Make sure the table width does not exceed the container */
+    max-width: 1200px; /* Optional: Set a max-width for large screens */
+    margin: 0 auto; /* Center align the table */
+    background-color: #000000; /* Background color for the table */
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    border: none;
+}
+
+th {
+    font-size: 2em;
+    font-weight: 700;
+    background-color: #003a60; /* Darker blue for table headers */
+    color: #ffffff; /* White color for table header text */
+    padding: 15px;
+}
+
+td {
+    font-size: 1.5em;
+    padding: 15px;
+    border-top: 1px solid #cacaca;
+    color: #000000; /* Darker text color for table data */
+}
+
+tr:nth-child(even) {
+    background-color: #6caff3;
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
